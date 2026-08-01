@@ -26,7 +26,10 @@ async function startLogin() {
             alert("试卷码无效，请重新输入。");
             return;
         }
-
+        
+        // Get the selected paper
+        const selectedPaper = papers[paperCode];
+        
         // Save information for later pages
         localStorage.setItem("studentName", studentName);
         localStorage.setItem("paperCode", paperCode);
