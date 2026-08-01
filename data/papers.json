@@ -1,8 +1,8 @@
 {
     "P2T1": {
-        "title": "G2 华文试卷二练习一",
-        "paperNumber": "练习一",
-        "file": "paper001.json",
-        "duration": 5400
+        "title": "G2华文试卷二电子考试模拟练习",
+        "paperTitle": "练习一",
+        "duration": 5400,
+        "file": "paper001.json"
     }
 }
