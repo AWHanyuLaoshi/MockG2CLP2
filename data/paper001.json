@@ -1,0 +1,191 @@
+{
+    "title": "练习一",
+
+    "duration": 6600,
+
+    "instructions": [
+        "本练习共有28题（共29个作答项目）。",
+        "点击“开始考试”后，系统将立即开始计时。",
+        "作答过程中，系统会自动保存答案。",
+        "时间结束后，系统将自动交卷。"
+    ],
+
+    "sections": [
+
+        {
+            "id": "section1",
+            "name": "综合填空",
+
+            "groups": [
+
+                {
+                    "id": "group1",
+
+                    "passage": {
+                        "type": "text",
+                        "content": ""
+                    },
+
+                    "questions": [
+
+                        {
+                            "id": "Q1",
+                            "display": "1",
+                            "type": "mcq",
+                            "question": "",
+                            "options": ["", "", "", ""],
+                            "answer": "",
+                            "review": false
+                        }
+
+                    ]
+                }
+
+            ]
+        },
+
+        {
+            "id": "section2",
+            "name": "阅读理解（一)",
+
+            "groups": [
+
+                {
+                    "id": "A",
+
+                    "passage": {
+                        "type": "text",
+                        "content": ""
+                    },
+
+                    "questions": [
+
+                        {
+                            "id": "Q11",
+                            "display": "11",
+                            "type": "mcq",
+                            "question": "",
+                            "options": ["", "", "", ""],
+                            "answer": "",
+                            "review": false
+                        }
+
+                    ]
+
+                },
+
+                {
+                    "id": "B",
+
+                    "passage": {
+                        "type": "text",
+                        "content": ""
+                    },
+
+                    "questions": [
+
+                    ]
+
+                },
+
+                {
+                    "id": "C",
+
+                    "passage": {
+                        "type": "text",
+                        "content": ""
+                    },
+
+                    "questions": [
+
+                    ]
+
+                }
+
+            ]
+        },
+
+        {
+            "id": "section3",
+            "name": "阅读理解（二)",
+
+            "groups": [
+
+                {
+                    "id": "A",
+
+                    "passage": {
+                        "type": "text",
+                        "content": ""
+                    },
+
+                    "questions": [
+
+                        {
+                            "id": "Q21",
+                            "display": "21",
+                            "type": "open",
+                            "question": "",
+                            "answer": "",
+                            "review": false
+                        },
+
+                        {
+                            "id": "Q22",
+                            "display": "22",
+                            "type": "open",
+                            "question": "",
+                            "answer": "",
+                            "review": false
+                        },
+
+                        {
+                            "id": "Q23A",
+                            "display": "23(a)",
+                            "type": "open",
+                            "question": "",
+                            "answer": "",
+                            "review": false
+                        },
+
+                        {
+                            "id": "Q23B",
+                            "display": "23(b)",
+                            "type": "open",
+                            "question": "",
+                            "answer": "",
+                            "review": false
+                        },
+
+                        {
+                            "id": "Q24",
+                            "display": "24",
+                            "type": "open",
+                            "question": "",
+                            "answer": "",
+                            "review": false
+                        }
+
+                    ]
+
+                },
+
+                {
+                    "id": "B",
+
+                    "passage": {
+                        "type": "text",
+                        "content": ""
+                    },
+
+                    "questions": [
+
+                    ]
+
+                }
+
+            ]
+        }
+
+    ]
+}
