@@ -1,0 +1,85 @@
+/* =========================
+   G2华文试卷二电子考试模拟练习
+   style.css
+   ========================= */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    font-family: "STZhongsong", "SimSun", "Microsoft YaHei", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 420px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #003366;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 35px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #333333;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font-size: 18px;
+    font-family: "STZhongsong", "SimSun", "Microsoft YaHei", serif;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0055aa;
+    box-shadow: 0 0 5px rgba(0,85,170,0.3);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 20px;
+    font-family: "STZhongsong", "SimSun", "Microsoft YaHei", serif;
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #003f80;
+}
+
+button:active {
+    background-color: #002d5a;
+}
