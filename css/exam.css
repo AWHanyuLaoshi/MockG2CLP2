@@ -14,6 +14,7 @@ body{
 
     width:100%;
     height:100%;
+
     overflow:hidden;
 
     font-family:
@@ -23,6 +24,13 @@ body{
         serif;
 
     background:#f3f5f7;
+}
+
+body{
+
+    display:flex;
+    flex-direction:column;
+
 }
 
 /* ==========================================
@@ -189,9 +197,11 @@ body{
 
 .exam-area{
 
-    height:calc(100vh - 60px - 45px - 60px - 60px);
+    flex:1;
 
     display:flex;
+
+    overflow:hidden;
 
 }
 
@@ -199,13 +209,15 @@ body{
 
 .passage-panel{
 
-    width:50%;
+    flex:1;
 
     background:white;
 
     border-right:1px solid #d9d9d9;
 
     overflow-y:auto;
+
+    overflow-x:hidden;
 
     padding:25px;
 
@@ -215,11 +227,13 @@ body{
 
 .question-panel{
 
-    width:50%;
+    flex:1;
 
     background:white;
 
     overflow-y:auto;
+
+    overflow-x:hidden;
 
     padding:25px;
 
