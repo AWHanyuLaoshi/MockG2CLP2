@@ -30,7 +30,10 @@ async function startLogin() {
         // Save information for later pages
         localStorage.setItem("studentName", studentName);
         localStorage.setItem("paperCode", paperCode);
-        localStorage.setItem("paperFile", papers[paperCode]);
+        localStorage.setItem("paperTitle", selectedPaper.paperTitle);
+        localStorage.setItem("paperFile", selectedPaper.file);
+        localStorage.setItem("duration", selectedPaper.duration);
+        localStorage.setItem("instructions", JSON.stringify(selectedPaper.instructions));
 
         // Go to the instruction page
         window.location.href = "instructions.html";
