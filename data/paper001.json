@@ -54,8 +54,8 @@
                     "id": "A",
 
                     "passage": {
-                        "type": "text",
-                        "content": ""
+                        "type": "html",
+                        "file": "data/passages/p001_s1.html"
                     },
 
                     "questions": [
