@@ -32,7 +32,7 @@ async function initialiseExam() {
         // Display header information
         document.getElementById("paperTitle").textContent = paper.title;
 
-        document.getElementById("candidateName").textContent =
+        document.getElementById("studentName").textContent =
             localStorage.getItem("studentName");
 
         // Build section dropdown
@@ -55,7 +55,7 @@ async function initialiseExam() {
 
 function buildSectionDropdown(){
 
-    const dropdown = document.getElementById("sectionSelect");
+    const dropdown = document.getElementById("sectionSelector");
 
     dropdown.innerHTML = "";
 
