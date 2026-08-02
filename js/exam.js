@@ -72,25 +72,32 @@ function buildSectionDropdown(){
     });
 
 }
-async function loadCurrentQuestion(){
+async function loadCurrentQuestion() {
 
-    const group =
-        paper.sections[currentSection]
-             .groups[currentGroup];
+    console.log("=== loadCurrentQuestion ===");
 
-    // Load passage
+    console.log("Current section:", currentSection);
+    console.log("Current group:", currentGroup);
 
-    if(group.passage.type==="html"){
+    const group = paper.sections[currentSection].groups[currentGroup];
 
-        const response =
-            await fetch(group.passage.file);
+    console.log("Group:", group);
 
-        const html =
-            await response.text();
+    if (group.passage.type === "html") {
 
-        document.getElementById(
-            "passageContent"
-        ).innerHTML = html;
+        console.log("Loading:", group.passage.file);
+
+        const response = await fetch(group.passage.file);
+
+        console.log("HTTP Status:", response.status);
+
+        const html = await response.text();
+
+        console.log("First 100 characters:", html.substring(0, 100));
+
+        document.getElementById("passageContent").innerHTML = html;
+
+        console.log("Passage inserted.");
 
     }
 
