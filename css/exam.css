@@ -349,19 +349,15 @@ body{
 
 .blank{
 
-    display: inline-flex;
-
-    justify-content: center;
-
-    align-items: flex-end;
-
-    width: 2em;
+    display: inline;
 
     border-bottom: 2px solid #000;
 
-    white-space: nowrap;
+    padding: 0 0.4em;
 
-    vertical-align: baseline;
+    line-height: 1;
+
+    white-space: nowrap;
 }
 
     font-weight:normal;
